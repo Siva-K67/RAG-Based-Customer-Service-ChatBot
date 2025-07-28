@@ -4,8 +4,7 @@ A simple MERN (MongoDB, Express, React, Node.js) chatbot that uses a Retrieval-A
 
 ## Why I Built This
 
-I read a BBC article about chatbot mistakes in travel services and wanted to try fixing wrong or made-up answers. the link of the article is here: 
-https://www.bbc.com/travel/article/20240222-air-canada-chatbot-misinformation-what-travellers-should-know
+I read a BBC article about chatbot mistakes in travel services and wanted to try fixing wrong or made-up answers.
 By adding RAG, the bot checks real documents before answering.
 
 ## What It Does
@@ -18,7 +17,7 @@ By adding RAG, the bot checks real documents before answering.
 
 * **Backend:** Node.js, Express, WebSocket, MongoDB
 * **Frontend:** React, Context API
-* **RAG:** OpenAI embeddings + simple vector database
+* **RAG:** GeminiAI embeddings + simple vector database
 
 ## Quick Start
 
@@ -52,12 +51,9 @@ By adding RAG, the bot checks real documents before answering.
    ```
 5. Open `http://localhost:3000` in your browser and chat!
 
-## Contributing
-
-Feel free to file issues or PRs. If you want more details here, just ask.
-
 ## License
 
 MIT License
 
-**Inspired by:** BBC Travel article "Air Canada Chatbot Misinformation" (Feb 22, 2024).
+**Inspired by:** BBC Travel article "Air Canada Chatbot Misinformation" (Feb 22, 2024). The link of the article is here: 
+https://www.bbc.com/travel/article/20240222-air-canada-chatbot-misinformation-what-travellers-should-know
